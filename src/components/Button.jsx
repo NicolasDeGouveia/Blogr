@@ -3,7 +3,7 @@ const Button = ({ bg, content, style }) => {
     <button
       className={
         bg
-          ? `${styles.button} text-[#ff525d] bg-white px-8 py-3 rounded-full`
+          ? `${styles.button} text-[#ff525d] bg-white px-8 py-3 rounded-full ${style}`
           : `${styles.button} text-white px-8 py-3 rounded-full ${style}`
       }
     >

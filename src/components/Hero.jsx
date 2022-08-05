@@ -13,7 +13,11 @@ const Hero = () => {
               Grow your audience and build your online brand
             </p>
             <div>
-              <Button content={"Start for Free"} bg={true} />
+              <Button
+                content={"Start for Free"}
+                bg={true}
+                style={styles.buttonHeaderFree}
+              />
               <Button
                 content={"Learn More"}
                 bg={false}
@@ -28,7 +32,8 @@ const Hero = () => {
 };
 
 const styles = {
-  buttonHeader: "border border-white",
+  buttonHeader: "border border-white px-4",
+  buttonHeaderFree: "px-4",
   bg: "bg-[top_left_-22.2rem] lg:bg-[center_left_-19.2rem] rounded-bl-[7rem] lg:rounded-none",
   gradient:
     "bg-gradient-to-b from-[#ff8f70f8] to-[#ff3d54e1] lg:bg-gradient-to-t lg:from-[#ff8f70de] lg:to-[#ff3d54d6]",
