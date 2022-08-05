@@ -4,7 +4,7 @@ import MediaQuery from "react-responsive";
 
 const Main = () => {
   return (
-    <div className="py-20 lg:py-44">
+    <section className="py-20 lg:py-44">
       <h2 className="text-center text-5xl font-semibold">
         Designed for the future
       </h2>
@@ -44,7 +44,7 @@ const Main = () => {
           </MediaQuery>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

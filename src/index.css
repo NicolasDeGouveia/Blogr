@@ -27,6 +27,10 @@ li, button {
   background-image: url('/src//assets/bg-pattern-intro-desktop.svg');
 }
 
+.art-bg {
+  background-image: url('/src/assets/bg-pattern-circles.svg');
+}
+
 .editor-illustration {
   background-image: url('/src/assets/illustration-editor-desktop.svg');
 }
@@ -39,5 +43,10 @@ li, button {
 
   .editor-illustration {
     background-image: url('/src/assets/illustration-editor-mobile.svg');
+  }
+
+  .art-bg {
+    background-image: url('/src/assets/bg-pattern-circles.svg');
+    background-size: contain;
   }
 }
