@@ -4,17 +4,20 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import { ToggleProvider } from "./utils/ToggleContext";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Main />
-      <Art />
-      <Description />
-      <Footer />
-    </div>
+    <ToggleProvider>
+      <div>
+        <Navbar />
+        <Hero />
+        <Main />
+        <Art />
+        <Description />
+        <Footer />
+      </div>
+    </ToggleProvider>
   );
 }
 

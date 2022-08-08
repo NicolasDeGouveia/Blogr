@@ -32,8 +32,8 @@ const Hero = () => {
 };
 
 const styles = {
-  buttonHeader: "border border-white px-4",
-  buttonHeaderFree: "px-4",
+  buttonHeader: "border border-white px-4 hover:bg-white hover:text-[#ff8f70]",
+  buttonHeaderFree: "px-4 hover:bg-[#ff8f70] hover:text-white",
   bg: "bg-[top_left_-22.2rem] lg:bg-[center_left_-19.2rem] rounded-bl-[7rem] lg:rounded-none",
   gradient:
     "bg-gradient-to-b from-[#ff8f70f8] to-[#ff3d54e1] lg:bg-gradient-to-t lg:from-[#ff8f70de] lg:to-[#ff3d54d6]",

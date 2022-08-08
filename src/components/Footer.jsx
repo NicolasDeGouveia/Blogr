@@ -9,28 +9,28 @@ const Footer = () => {
         <div className={styles.div}>
           <p className={styles.p}>Product</p>
           <ul className={styles.ul}>
-            <li>Overview</li>
-            <li>Pricing</li>
-            <li>Marketplace</li>
-            <li>Features</li>
-            <li>Integrations</li>
+            <li className={styles.li}>Overview</li>
+            <li className={styles.li}>Pricing</li>
+            <li className={styles.li}>Marketplace</li>
+            <li className={styles.li}>Features</li>
+            <li className={styles.li}>Integrations</li>
           </ul>
         </div>
         <div className={styles.div}>
           <p className={styles.p}>Company</p>
           <ul className={styles.ul}>
-            <li>About</li>
-            <li>Team</li>
-            <li>Blog</li>
-            <li>Careers</li>
+            <li className={styles.li}>About</li>
+            <li className={styles.li}>Team</li>
+            <li className={styles.li}>Blog</li>
+            <li className={styles.li}>Careers</li>
           </ul>
         </div>
         <div className={styles.div}>
           <p className={styles.p}>Connect</p>
           <ul className={styles.ul}>
-            <li>Contact</li>
-            <li>Newsletter</li>
-            <li>Linkedin</li>
+            <li className={styles.li}>Contact</li>
+            <li className={styles.li}>Newsletter</li>
+            <li className={styles.li}>Linkedin</li>
           </ul>
         </div>
       </div>
@@ -41,6 +41,7 @@ const Footer = () => {
 const styles = {
   p: "font-semibold pb-4",
   ul: "leading-8",
+  li: "hover:underline cursor-pointer",
   div: "mt-8 lg:mt-0",
 };
 
